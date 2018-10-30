@@ -26,7 +26,7 @@
 
 2. cglib
 
-3. 当aop的目标对象使用类实现的方式作为bean对象时,aop代理方式将会使用cglib,当开启自动代理<aop:aspectJ-autoproxy>有接口时默认使用jdk动态代理若开启class代理则会使用cglib
+3. 当aop的目标对象使用类实现的方式作为bean对象时,aop代理方式将会使用cglib,当开启自动代理```<aop:aspectJ-autoproxy>```有接口时默认使用jdk动态代理若开启class代理则会使用cglib
 
 4. 党对源码进行分析时,在test方法中打断点然后在执行进去,不要直接在源码中打断点,其它程序也有可能会调用该方法,导致中断的位置不正确.
 
