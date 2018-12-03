@@ -63,6 +63,8 @@ Minor GC之前检查
 
    新生代GC方式
 
+   会将eden区和s0区的对象转到s1区
+
    ## Major GC
 
    老年代GC方式
